@@ -133,70 +133,148 @@ background-color: rgb(241,179,85);
 
 /* carousel end section */
 
-/* footer section */
 
-.footer-box{
-    text-align: center;
-height: 50px;
-}
-.footer-box p{
-    background-color:cadetblue ;
-    color: white;
-    font-size: large;
-    font-weight: 500;
-    height: 50px;
-    padding: 20px 0px 50px 0px;
-    animation: text 3s 1;
-}
-.footer-box p:hover{
-    color: white;
-  text-shadow: 1px 3px 5px #000000;
-  
-}
-@keyframes text{
-    0%{
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    35%{
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-  }
+   /*=====*Head part*====*/
+   *,
+   *::after,
+   *::before{
+       -webkit-box-sizing: border-box;
+       box-sizing: border-box;
+       margin: 0;
+       padding:0;
+   }
+   html{
+       scroll-behavior: smooth;
+   }
+   /*=====*End*======*/
+   /*======*Slider Part*=====*/
+   .column-1{
+       background-color:rgb(129, 207, 207);
+   }
+   .column-1 p{
+       margin: 60px 0 0 0;
+   }
+   .column-1{
+           position: relative;
+           animation-name: exam;
+           animation-duration: 4.0s;
+           animation-iteration-count: initial;
+         
+       } 
+         @keyframes exam {
+           0%   { right:0px; top:0px;}
+           25%  {left:300px; top:0px;}
+           /*50%  {background-color:blue; left:200px; top:200px;}
+           75%  {background-color:green; left:0px; top:200px;}*/
+           100% { left:0px; top:0px;}
+         }
+         .column-2{
+           position: relative;
+           animation-name: slide;
+           animation-duration: 3s;
+           transform:1.5s;
+           animation-iteration-count: initial;
+         
+       } 
+         @keyframes slide {
+           0%   {left:0px; top:0px;}
+           25%  {right:300px; top:0px;}
+           /*50%  {background-color:blue; left:200px; top:200px;}
+           75%  {background-color:green; left:0px; top:200px;}*/
+           100% { right:0px; top:0px;}
+         }
+   .column-2{
+       background-color: black;
+     color:white;
+   }
+   .column-2 p{
+       margin: 60px 0 0 0;
+   }
+   .depart h3{
+       border-bottom: 1px solid rgb(102, 96, 96);
+   margin-top: 50px;
+   margin-bottom: 30px;
+      line-height: 0.2em;
+   }
+   .depart h3 span{
+       background-color: white;
+       padding: 5px 15px;
+   }
+   .heart{
+       color:cadetblue ;
+   }
+   .heart:hover{
+       color: white;
+       text-shadow: 1px 0px 2px #000000;
+   }
+   /*=======*End*=======*/
+   /*==========*Footer part Start*============*/
+   .footer-box{
+       text-align: center;
+    margin-top: 50px;
+    height: 60px;
+   }
+   .footer-box p{
+       background-color:cadetblue ;
+       color: white;
+       font-size: large;
+       font-weight: 500;
+       height: 50px;
+       padding: 20px 0px 50px 0px;
+       }
+   .footer-box p:hover{
+       color: white;
+     text-shadow: 1px 3px 5px #000000;
+    
+   }
+   .word{
+       animation: text 3s 1;
+      
+   }
+   @keyframes text{
+       0%{
+           transform: translateX(-100px);
+           opacity: 0;
+       }
+       40%{
+           transform: translateX(-100px);
+           opacity: 0;
+       }
+   }
+   #footer{
+       background-color: gray;
+   }
+   #links a{
+       color: white;
+       text-decoration: none; 
+   }
+   #links a:hover{
+       color:rgb(95, 158, 160);
+   }
+   .footer h5{
+       color: white;
+       font-size: 15px;
+       font-weight: 300;
+   }
+   .footer p{
+       font-weight:400 ;
+       font-size: 13px;
+   }
+   .footer-copy{
+       background-color:rgb(68, 71, 71);
+       color: rgb(165, 159, 159);
+   }
+   .copy-right a{
+       color: rgb(165, 159, 159);
+       padding: 20px 0 0;
+   }
+   .copy-right a:hover{
+       color:cadetblue;
+       text-decoration: none;
+   }
+   .copy-right p {
+       margin-bottom: 40px;
+       height: 50px;
+   }
+   /*======*Footer Part End*=======*/
 
-#footer{
-    background-color: gray;
-}
-#links a{
-    color: white;
-    text-decoration: none; 
-}
-#links a:hover{
-    color:rgb(95, 158, 160);
-}
-.footer h5{
-    color: white;
-    font-size: 15px;
-    font-weight: 300;
-}
-.footer p{
-    font-weight:400 ;
-    font-size: 13px;
-}
-.footer-copy{
-    background-color:rgb(68, 71, 71);
-    color: rgb(165, 159, 159);
-}
-.copy-right a{
-    color: rgb(165, 159, 159);
-    padding: 20px 0 0;
-}
-.copy-right a:hover{
-    color:cadetblue;
-    text-decoration: none;
-}
-.copy-right p {
-    margin-bottom: 40px;
-    height: 50px;
-}
-    /* footer end section */
