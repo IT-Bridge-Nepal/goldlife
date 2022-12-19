@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navbar section */
+.bgcolor.scrolled{
+    background-color:cadetblue;
+    
+}
+/* nav{
+    background-color: #222 !important;
+  opacity: 0.4;
+
+}
+#navbarSupportedContent a{
+    color: white;
+} */
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.img{
+    margin-left: 100px;
+
+}
+   
+.navbar-collapse{
+    margin-left: 250px;
+
+}
+
+.navbar-nav .nav-item a{
+font-size:18px;
+color: black !important;
+font-weight: bolder;
+position: relative;
+text-decoration: none;
+letter-spacing: 0 10px;
+
+}
+.navbar-nav .nav-item a:hover{
+    
+    color:gray !important;
+}
+.navbar-nav .nav-item a:after{
+        content: "";
+        position: absolute;
+        background-color:black;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -5px;
+    }
+.navbar-nav .nav-item a:hover:after{
+        width: 100%;
+    }
+
+.navbar .nav-item{
+     margin-left:10px;
+}
+/* .dropdown-menu li {
+    position: relative;
+    }
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    }
+ .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+    }
+ .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
+.dropdown-menu a:hover{
+    color:black;
+   }
+.navbar-toggler-icon .fa-bars{
+font-size: 30px;
+} */
+.search .fa-search{
+    border-left: 2px solid white;
+}
+
+/* navbar end section */
+/* carousel section */
+
+.carousel-caption h3 {
+    padding: 80px;
+    color: white;
+    font-weight: bolder;
+    animation: text 3s 1;
+
+    @keyframes text{
+        0%{
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+        35%{
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+      }
+    
+}
+.carousel-caption .btn-one{
+    background-color:cadetblue;
+    border: none;
+    border-radius: 100px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    margin: 20px;
+    box-shadow:  rgb(44 187 99 / 20%) 0 -25px 18px -14px inset, rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px, rgb(44 187 99 / 15%) 0 4px 8px, rgb(44 187 99 / 15%) 0 8px 16px, rgb(44 187 99 / 15%) 0 16px 32px;
+}
+.carousel-caption .btn-one:hover{
+background-color: rgb(241,179,85);
+}
+  
+
+
+
+/* carousel end section */
+
+/* footer section */
+
+.footer-box{
+    text-align: center;
+height: 50px;
+}
+.footer-box p{
+    background-color:cadetblue ;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    height: 50px;
+    padding: 20px 0px 50px 0px;
+    animation: text 3s 1;
+}
+.footer-box p:hover{
+    color: white;
+  text-shadow: 1px 3px 5px #000000;
+  
+}
+@keyframes text{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    35%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+  }
+
+#footer{
+    background-color: gray;
+}
+#links a{
+    color: white;
+    text-decoration: none; 
+}
+#links a:hover{
+    color:rgb(95, 158, 160);
+}
+.footer h5{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.footer p{
+    font-weight:400 ;
+    font-size: 13px;
+}
+.footer-copy{
+    background-color:rgb(68, 71, 71);
+    color: rgb(165, 159, 159);
+}
+.copy-right a{
+    color: rgb(165, 159, 159);
+    padding: 20px 0 0;
+}
+.copy-right a:hover{
+    color:cadetblue;
+    text-decoration: none;
+}
+.copy-right p {
+    margin-bottom: 40px;
+    height: 50px;
+}
+    /* footer end section */
