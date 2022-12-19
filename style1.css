@@ -50,7 +50,7 @@ letter-spacing: 0 10px;
     
     color:gray !important;
 }
-.navbar-nav .nav-item a:after{
+/* .navbar-nav .nav-item a:after{
         content: "";
         position: absolute;
         background-color:black;
@@ -61,12 +61,12 @@ letter-spacing: 0 10px;
     }
 .navbar-nav .nav-item a:hover:after{
         width: 100%;
-    }
+    } */
 
 .navbar .nav-item{
      margin-left:10px;
 }
-/* .dropdown-menu li {
+.dropdown-menu li {
     position: relative;
     }
 .dropdown-menu .dropdown-submenu {
@@ -87,7 +87,7 @@ letter-spacing: 0 10px;
    }
 .navbar-toggler-icon .fa-bars{
 font-size: 30px;
-} */
+}
 .search .fa-search{
     border-left: 2px solid white;
 }
