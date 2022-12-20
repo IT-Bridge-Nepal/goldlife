@@ -127,13 +127,84 @@ font-size: 30px;
 .carousel-caption .btn-one:hover{
 background-color: rgb(241,179,85);
 }
-  
+  /* carousel end section */
+
+/* navbar section */
+.bgcolor.scrolled{
+    background-color:cadetblue;
+    
+}
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.img{
+    margin-left: 100px;
+
+}
+   
+.navbar-collapse{
+    margin-left: 250px;
+
+}
+
+.navbar-nav .nav-item a{
+font-size:18px;
+color: black !important;
+font-weight: bolder;
+position: relative;
+text-decoration: none;
+letter-spacing: 0 10px;
+
+}
+.navbar-nav .nav-item a:hover{
+    
+    color:gray !important;
+}
+.navbar-nav .nav-item a:after{
+        content: "";
+        position: absolute;
+        background-color:black;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -5px;
+    }
+.navbar-nav .nav-item a:hover:after{
+        width: 100%;
+    }
+
+.navbar .nav-item{
+     margin-left:10px;
+}
+
+.search .fa-search{
+    border-left: 2px solid white;
+}
+
+/* navbar end section */
+/*==top picture and banner==*/
+.top-banner{
+    width: 100%;
+    background:url('images/evie.jpg') no-repeat center;
+    background-size:cover;
+    padding:9.8rem 0 8.3rem;
+    opacity: 0.8;
+}
+.top-banner p{
+    color: rgb(0, 0, 0);
+}
 
 
 
-/* carousel end section */
-
-
+.aboutbox h2:hover{
+    
+        color: cadetblue;
+      text-shadow: 1px 3px 5px white;
+    
+}
+/*==top end picture and banner==*/
    /*=====*Head part*====*/
    *,
    *::after,
