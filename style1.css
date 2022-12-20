@@ -38,10 +38,10 @@ text-decoration: none;
 letter-spacing: 0 10px;
 
 }
-/* .navbar-nav .nav-item a:hover{
+.navbar-nav .nav-item a:hover{
     
     color:gray !important;
-} */
+}
 
 .navbar-nav .nav-item a:after{
         content: "";
@@ -83,7 +83,7 @@ font-size: 30px;
 } 
 
 .search .fa-search{
-    border-left: 2px solid white;
+    border-left: 2px solid black;
 }
 
 /* navbar end section */
