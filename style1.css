@@ -62,7 +62,7 @@ letter-spacing: 0 10px;
 .dropdown-menu li {
     position: relative;
     }
-.dropdown-menu .dropdown-submenu {
+/* .dropdown-menu .dropdown-submenu {
     display: none;
     position: absolute;
     left: 100%;
@@ -74,7 +74,7 @@ letter-spacing: 0 10px;
     } 
  .dropdown-menu > li:hover > .dropdown-submenu {
     display: block;
-    }
+    } */
 .dropdown-menu a:hover{
     color:black;
    }
@@ -159,7 +159,7 @@ height: 50px;
   }
 
 #footer{
-    background-color: gray;
+    background-color:#222222
 }
 #links a{
     color: white;
@@ -176,9 +176,11 @@ height: 50px;
 .footer p{
     font-weight:400 ;
     font-size: 13px;
+    color: bisque;
 }
 .footer-copy{
-    background-color:rgb(68, 71, 71);
+    
+    background-color:  #121313;
     color: rgb(165, 159, 159);
 }
 .copy-right a{
