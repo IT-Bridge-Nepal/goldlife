@@ -123,28 +123,6 @@ background-color: rgb(241,179,85);
 }
   /* carousel end section */
 
-
-/*==top picture and banner==*/
-.top-banner{
-    width: 100%;
-    background:url('images/evie.jpg') no-repeat center;
-    background-size:cover;
-    padding:9.8rem 0 8.3rem;
-    opacity: 0.8;
-}
-.top-banner p{
-    color: rgb(0, 0, 0);
-}
-
-
-
-.aboutbox h2:hover{
-    
-        color: cadetblue;
-      text-shadow: 1px 3px 5px white;
-    
-}
-/*==top end picture and banner==*/
    /*=====*Head part*====*/
    *,
    *::after,
@@ -230,13 +208,13 @@ background-color: rgb(241,179,85);
     position: relative;
     width: 100%;
     height: 78vh;
-    background: url(pictures/david.jpg);
+    background: url(images/david.jpg);
     background-size: 100%;
     background-position: center;
     background-attachment: fixed;
 }
 #header h1{
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
     padding: 13rem 0 0 5rem;
 }
