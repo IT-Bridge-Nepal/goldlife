@@ -174,7 +174,6 @@ background-color: rgb(241,179,85);
       text-align: center;
      margin: 100px;
      color: white ;
-   
   }
   .body-section .test hr{
       height: 1px;
@@ -190,7 +189,6 @@ background-color: rgb(241,179,85);
       background-attachment: fixed;
       margin-top: 50px;
   }
-  
   .body-section .test p{
       text-align: center;
   }
@@ -209,7 +207,6 @@ background-color: rgb(241,179,85);
     height: 2px;
     width: 100px;
     background-color: rgb(244, 247, 59);
-  
   } 
   
   .figure-section .well .test{
@@ -298,7 +295,7 @@ height: 50px;
   }
 
 #footer{
-    background-color: gray;
+    background-color: #222222;
     
 }
 
@@ -317,9 +314,10 @@ height: 50px;
 .footer p{
     font-weight:400 ;
     font-size: 13px;
+    color: bisque;
 }
 .footer-copy{
-    background-color:rgb(68, 71, 71);
+    background-color:#121313;
     color: rgb(165, 159, 159);
 }
 .copy-right a{
